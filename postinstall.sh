@@ -19,3 +19,4 @@ git clone https://www.github.com/9wm/9wm
 cd 9wm
 make
 make install
+cd
