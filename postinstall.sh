@@ -11,7 +11,7 @@ sbopkg -i slpkg
 slpkg update
 rsync -Hav rsync://ponce.cc/pub/slackware64-14.2/lxde/ lxde/
 upgradepkg --install-new lxde/*.t?z
-slpkg -s sbo openbox
+slpkg -s sbo openbox hack-font-ttf
 mkdir /home/joaquim/.themes
 mkdir /home/joaquim/.icons
 slpkg -s sbo feh
