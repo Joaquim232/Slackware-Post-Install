@@ -12,9 +12,3 @@ slpkg update
 slpkg -s sbo hack-font-ttf
 mkdir /home/joaquim/.themes
 mkdir /home/joaquim/.icons
-slpkg -s sbo feh
-git clone https://www.github.com/9wm/9wm
-cd 9wm
-make
-make install
-cd
